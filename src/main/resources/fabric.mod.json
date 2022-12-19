@@ -1,27 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "meteor-packet-logger",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Meteor Packet Logger",
+  "description": "Addon for meteor client to log network packets to console",
   "authors": [
-    "seasnail"
+    "Cr7mbl3"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Cr7mbl3/meteor-packet-logger"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "me.cr7mbl3.packetlogger.PacketLoggerAddon"
     ]
   },
-  "mixins": [
-    "addon.mixins.json"
-  ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "0,204,0",
+    "github:sha": "${gh_hash}"
   },
   "depends": {
     "java": ">=17",
