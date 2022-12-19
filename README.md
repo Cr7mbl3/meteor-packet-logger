@@ -1,6 +1,6 @@
 # Packet Logger for Meteor Client
 
-Logs incomming and outgoing packet names and contents to console
+Logs incoming and outgoing packet names and contents to console
 
 ### How to use:  
 - [Download latest packet logger jar](https://github.com/Cr7mbl3/meteor-packet-logger/releases/tag/latest)
