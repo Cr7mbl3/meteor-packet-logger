@@ -38,12 +38,12 @@ public class PacketLogger extends Module {
     );
 
     public PacketLogger() {
-        super(Categories.Misc, "packet-logger", "Logs specific packets to console");
+        super(Categories.Misc, "packet-logger", "Logs specific packets to console.");
     }
 
     @EventHandler(priority = EventPriority.HIGHEST + 1)
     private void onReceivePacket(PacketEvent.Receive event) {
-        if (s2cPackets.get().contains(event.packet.getClass())) log("incomming", event.packet);
+        if (s2cPackets.get().contains(event.packet.getClass())) log("incoming", event.packet);
     }
 
     @EventHandler(priority = EventPriority.LOWEST)
