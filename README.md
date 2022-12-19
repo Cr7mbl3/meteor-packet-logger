@@ -1,8 +1,8 @@
-# Meteor Addon Template
+# Packet Logger for Meteor Client
 
-A template to allow easy usage of the Meteor Addon API.
+Logs incomming and outgoing packet names and contents to console
 
 ### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+- [Download latest packet logger jar](https://github.com/Cr7mbl3/meteor-packet-logger/releases/tag/latest)
+- Put jar into .minecraft/mods
+- Enable and configure PacketLogger module
